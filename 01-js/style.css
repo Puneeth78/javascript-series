@@ -1,0 +1,55 @@
+Counter Number
+#countLabel {
+    display: block;
+    text-align: center;
+    font-size: 80px;   /* Better than 5cm */
+    font-weight: bold;
+    margin-top: 80px;
+    margin-bottom: 40px;
+    color: #333;
+}
+
+/* Button Container */
+#btncontainer {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+/* Buttons */
+.buttons {
+    padding: 12px 28px;
+    font-size: 18px;
+    border-radius: 12px;
+    border: 2px solid brown;   /* Fixed border */
+    color: white;
+    background-color: #00bcd4;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+/* Hover Effect */
+.buttons:hover {
+    background-color: #0097a7;
+    transform: scale(1.1);
+}
+
+/* Click Effect */
+.buttons:active {
+    transform: scale(0.95);
+}
+
+/* random number generator */
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+#myButton{
+    font-size: 3cm;
+    padding: 5px 5px 5px 5px ;
+
+}
+
+.mylabels{
+    font-size: 3cm;
+}

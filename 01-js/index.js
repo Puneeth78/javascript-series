@@ -8,11 +8,11 @@ username=window.prompt("what's your user name?")
 console.log(username);
 
 // professional way
-let username;
+let username1;
 document.getElementById("mySubmit").onclick=function() {
     username=document.getElementById("myText").value;
     document.getElementById("myH1").textContent=`Hello ${username}`;
-    console.log(username)
+    console.log(username1)
     
 }
 
@@ -29,20 +29,20 @@ age+=1
 console.log(age)
 console.log(typeof(age));
 
-convert string into all types
-let x="puneeth"
-let y="puneeeth"
-let z="puneeth"
+// convert string into all types
+let x1="puneeth"
+let y1="puneeeth"
+let z1="puneeth"
 
-x=Number(x);
-y=String(y);
-z=Boolean(z);
+x=Number(x1);
+y=String(y1);
+z=Boolean(z1);
 
-console.log(x,typeof(x));
-console.log(y,typeof(y));
-console.log(z,typeof(z));
+console.log(x1,typeof(x1));
+console.log(y1,typeof(y1));
+console.log(z1,typeof(z1));
 
-constant = a varioable cannot be changed
+// constant = a varioable cannot be changed
 const PI=3.142;
 let radius;
 let circumference;
@@ -109,9 +109,9 @@ console.log(z);
 
 // random number generator
 
-const min=50;
-const max=100;
-let randNum=Math.floor(Math.random()*min-max) +max;
+const min1=50;
+const max1=100;
+let randNum=Math.floor(Math.random()*min1-max1) +max1;
 console.log(randNum)
 
 

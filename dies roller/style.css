@@ -1,0 +1,82 @@
+#container {
+    font-family: 'Arial', Helvetica, sans-serif;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    background-color: #f0f8ff;  /* light background */
+    padding: 40px 20px;
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* soft shadow */
+    max-width: 600px;
+    margin: 50px auto;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+label {
+    font-size: 1.5rem;
+    display: block;
+    margin: 15px 0 10px;
+    color: #555;
+}
+
+input {
+    font-size: 1.5rem;
+    width: 120px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 10px;
+    border: 2px solid aqua;
+    background-color: #adff2f;
+    margin-bottom: 20px;
+    transition: all 0.3s ease;
+}
+
+input:focus {
+    outline: none;
+    border-color: #00bfff;
+    box-shadow: 0 0 10px #00bfff;
+}
+
+button {
+    font-size: 1.5rem;
+    padding: 12px 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: #95f506;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: #32cd32;
+    transform: scale(1.05);
+}
+
+#diceResult {
+    font-size: 1.8rem;
+    margin: 20px 0;
+    color: #222;
+}
+
+#diceImages {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#diceImages img {
+    width: 100px;
+    margin: 10px;
+    transition: transform 0.3s ease;
+}
+
+#diceImages img:hover {
+    transform: rotate(20deg) scale(1.1);
+}

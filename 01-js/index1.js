@@ -100,11 +100,11 @@ let y=3;
 let z;
 z=Math.round(y);
 z=Math.floor(x);
-z=Math.ceil(x)
-z=Math.trunc(x)
-z=Math.pow(x,y)
-z=Math.sqrt(x)
-z=Math.log(x)
+z=Math.ceil(x);
+z=Math.trunc(x); //remove the decimal part
+z=Math.pow(x,y);
+z=Math.sqrt(x);
+z=Math.log(x);
 console.log(z);
 
 // random number generator

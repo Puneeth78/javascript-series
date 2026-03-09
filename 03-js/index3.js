@@ -60,7 +60,7 @@ userName=userName.trim().charAt(0).toUpperCase()+userName.trim().slice(1).toLowe
 console.log(userName)
 
 
-// logical operator=used to combine or manupuklate the boolean (values)
+// logical operator=used to combine or manupulate the boolean (values)
 // true or false
 
 // ABS=&&
@@ -106,7 +106,7 @@ console.log(`hello ${username7}`)
 
 let i1 = 5;
 
-while (i >= 0) {
+while (i1 >= 0) {
     console.log(i1);
     i1--;
 }

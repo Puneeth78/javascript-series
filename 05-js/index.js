@@ -11,6 +11,7 @@
 //     console.log("goodbye")
 // }
 
+
 // function greet(name, callback){
 //     console.log("Hello " + name);
 //     callback();
@@ -104,6 +105,7 @@
 // function upperCase(element){
 //     return element.toUpperCase();
 // }
+
 
 
 // filter= creates a new array by filtring out the elements

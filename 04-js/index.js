@@ -1,7 +1,7 @@
 // variable scope =where a variable scope is recognisable and accessable (local and global)
 
 
-// local=any variable declared outside the function
+// local=any variable declared inside the function
 
 // function2();
 // function function1(){

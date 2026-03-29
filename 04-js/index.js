@@ -91,7 +91,7 @@ console.log(sum(...nums));
 function openFridge(...foods){
     console.log(foods);
 
-}
+}//jbddje
 
 const food1="pizza";
 const food2="dosa";

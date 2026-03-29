@@ -145,4 +145,3 @@ const btn =document.getElementById("myButton");
 btn.addEventListener("click",function(){
     console.log("button is clicked");
 });
-

@@ -253,5 +253,4 @@ getWheatherData();
 
 // console.log("task is completed sucessfullt wait for result")
 
-// json files 
-
+// json files

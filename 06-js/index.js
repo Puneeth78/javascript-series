@@ -45,4 +45,3 @@ for(div of divs){
     idx++
 }
 
-
